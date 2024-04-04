@@ -16,7 +16,7 @@ capture = FaceCrop.FaceCrop("../Samples/test","identified_faces")
 capture.generate()
 ```
 
-![screenshot](./screenshots/Screenshot_Input.png)
+![screenshot](https://github.com/udayatom/PyFaceCrop/blob/main/PyFaceCrop/screenshots/Screenshot_Input.png)
 
 generate() croping the faces from the present frame, if the face is above to recognize.
 
@@ -24,6 +24,6 @@ generate() croping the faces from the present frame, if the face is above to rec
 
 PyFaceCrop generated crop frame faces into destination folder along with the respective folder with the name of the input the video file. So better to avoid multiple faces in the same video file to get a better dataset.
 
-![screenshot](./screenshots/Screenshot_Sajja.png)  
-![screenshot](./screenshots/Screenshot_Yogesh.png)
-![screenshot](./screenshots/Screenshot_User23.png)
+![screenshot](https://github.com/udayatom/PyFaceCrop/blob/main/PyFaceCrop/screenshots/Screenshot_Sajja.png)  
+![screenshot](https://github.com/udayatom/PyFaceCrop/blob/main/PyFaceCrop/screenshots/Screenshot_Yogesh.png)
+![screenshot](https://github.com/udayatom/PyFaceCrop/blob/main/PyFaceCrop/screenshots/Screenshot_User23.png)
