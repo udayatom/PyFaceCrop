@@ -41,7 +41,7 @@ class FaceCrop:
                 roi_color = img[y:y+h, x:x+w]
                 
                 eyes = eye_cascade.detectMultiScale(roi_gray)
-                print(f"Eyes Count{len(eyes)}")
+                #print(f"Eyes Count{len(eyes)}")
                 for (ex,ey,ew,eh) in eyes:
                     face = img[y:y + h, x:x + w]
                     cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 255), 2)
