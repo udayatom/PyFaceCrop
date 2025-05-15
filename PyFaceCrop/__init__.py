@@ -1,1 +1,1 @@
-from .main import hello
+from .face_crop import FaceCrop
